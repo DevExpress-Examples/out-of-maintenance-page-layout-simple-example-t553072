@@ -41,7 +41,7 @@ namespace PageLayout
             SectionPage sectionPage1 = richEditControl1.Document.Sections[0].Page;
 
             //Change the paper kind and orientation of the first section:
-            sectionPage1.PaperKind = PaperKind.A5;
+            sectionPage1.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.A5;
             sectionPage1.Landscape = true;
 
             //Change margins of the second section:
